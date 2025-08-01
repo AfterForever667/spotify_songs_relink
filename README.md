@@ -6,6 +6,8 @@ When a song is playing on the radio, I'm getting some additional information for
 Investigation showed that when I lookup the song via the API it gives me a track-id that is different from the track-id in my liked songs (due to spotify's track re-linking mechanism). To solve that my library needs to be updated with the most recent track-id's for the songs in it. That is exactly what this tool does. 
 By extension it can also check playlists, but the re-linking mechanism doesn't pose any problem in playlists. Here unplayable tracks are more of an issue (tracks that disappear from spotify). This tool tries to find whether a new track can be found that is likely the same as the one that disappeared (e.g. a track that disappeared may be on a compilation somewhere).
 This script came to be with the help of IA (vibe coding).
+**Although thoroughly tested, you are still using this at your own risk**
+
 
 ## What Problem Does This Solve?
 
